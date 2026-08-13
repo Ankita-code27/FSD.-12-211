@@ -17,3 +17,26 @@ Modern javaScript is divideed into two categories:
 1.CommonJS (.cjs)->support OOPs
 -first priorty(nextTick,Promise,setImmediate/setTimeout)
 2.ModuleJS (.mjs)->follow modular approach -> import - (Promise,nextTick,setImmediate/setTimeout)
+The common operations on folder are :
+1.Write file
+2.Read file
+3.Append file
+File Metadat
+->stat
+->lstat
+->rstat
+2.Folder
+mkdir/md
+rmdir/rm
+readdir
+3.File Metadat
+->stat
+->lstat
+->rstat
+4.Watch
+->watch
+->Unwatch
+5.Stream
+->readStream()
+->writeStream()
+WriteFile -> always create file and write
